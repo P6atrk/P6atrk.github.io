@@ -2,3 +2,38 @@
 	text-align: center;
 	font-family: serif;
 }
+
+#contactTable {
+	width: 25%
+}
+
+table.projectTable {
+	border-collapse: separate;
+	border-spacing: 40px 100px;
+}
+
+td {
+	padding: 30px;
+	background-color: red;
+}
+
+a:link {
+	text-decoration: none;
+	color: #808080;
+	padding: 25px;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #808080;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
