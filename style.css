@@ -9,31 +9,52 @@
 
 table.projectTable {
 	border-collapse: separate;
-	border-spacing: 40px 100px;
+	border-spacing: 20px 50px;
+	table-layout: fixed;
+	border-style: dotted;
 }
 
 td {
-	padding: 30px;
-	background-color: red;
+	padding: 20px;
+	border-style: solid;
 }
 
 a:link {
 	text-decoration: none;
-	color: #808080;
-	padding: 25px;
+	color: #000000;
 }
 
 a:visited {
 	text-decoration: none;
-	color: #808080;
+	color: #000000;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #000000;
+	color: #989898;
 }
 
 a:active {
+	text-decoration: none;
+	color: #989898;
+}
+
+a:link.socialMedia {
+	text-decoration: none;
+	color: #808080;
+}
+
+a:visited.socialMedia {
+	text-decoration: none;
+	color: #808080;
+}
+
+a:hover.socialMedia {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:active.socialMedia {
 	text-decoration: none;
 	color: #000000;
 }
